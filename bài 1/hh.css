@@ -1,0 +1,18 @@
+.a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+ color: red;
+ text-align: center;
+}
+header{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 10;
+background-color:rgb(185, 178, 178) ;
+padding: 10px;
+}
+.name p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15;
+    text-align: center;
+}
+
