@@ -1,0 +1,26 @@
+.w{
+    background-color: rgb(236, 233, 233);
+    padding: 1px;
+}
+.c{
+    display: flex;
+    justify-content:space-between;
+}
+
+.b{
+    text-align: center;
+}
+.d{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: red;
+}
+.e{
+    position: relative;
+    left: 66px;
+}
+.f{
+    position:relative;
+    bottom: 20px;
+}
