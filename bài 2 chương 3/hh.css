@@ -1,0 +1,17 @@
+.a{
+    font-style: italic;
+    font-size: 14;
+    color: white;
+    background: blue;
+}
+h2{
+    color: red;
+    text-align: center;
+}
+.b{
+    font-style: italic;
+    font-size: 14;
+    color: yellow;
+    background: brown;
+    margin-top: -16px;
+}

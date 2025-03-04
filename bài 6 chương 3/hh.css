@@ -1,0 +1,28 @@
+h1{
+    color: red;
+    text-align: center;
+}
+.a{
+    background: yellow;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: violet;
+}
+.b{
+    list-style-type: disc;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+.c{
+    list-style-type: square;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+}

@@ -1,0 +1,43 @@
+hr{
+    margin-top: -1px;
+}
+.a{
+    text-indent: 20px;
+    display: block;
+}
+.b{
+    font-weight: bold;
+}
+.c{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 13pt;
+    font-weight: normal;
+}
+.d{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13pt;
+    color: black;
+    list-style-type: square;
+    font-weight: normal;
+}
+.e{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: black;
+    list-style-type: disc;
+    font-weight: normal;
+}
+.f{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13pt;
+    color: red;
+    font-weight: bold;
+}
+.g{
+    font-style: italic;
+    font-weight: normal;
+}
+.h{
+    font-weight: bold ;
+}

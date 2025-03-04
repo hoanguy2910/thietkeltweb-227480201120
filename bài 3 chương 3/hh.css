@@ -1,0 +1,14 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+ol{
+    font-size: 14;
+    color: black;
+}
+.a{
+    background: pink;
+    border: 2px solid black;
+    padding: 20px;
+   
+}

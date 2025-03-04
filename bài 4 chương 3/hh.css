@@ -1,0 +1,15 @@
+table,td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14;
+    text-align: center;
+}
+.a{
+    font-weight: bold;
+    background: rgb(165, 162, 162);
+}
+.b{
+    background: rgb(231, 229, 229);
+}
