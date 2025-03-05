@@ -1,0 +1,21 @@
+
+.tong ul{
+    list-style: none;
+    background: greenyellow;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+
+}
+.con,.chau{
+    display: none;
+}
+.b:hover>.con{
+    display: block;
+}
+.d:hover>.chau{
+    display: block;
+}
+table{
+    border-collapse: collapse;
+}
