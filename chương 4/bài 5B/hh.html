@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="date">Ngày: </p>
+    <p id="month">Tháng: </p>
+    <p id="year">Năm: </p>
+    <script>
+            var a = new Date();
+            var ngay = a.getDate();
+            var b=new Date();
+            var thang=b.getMonth();
+            var c=new Date();
+            var nam=c.getFullYear();
+            document.getElementById("date").innerHTML += " " + ngay;
+            document.getElementById("month").innerHTML += " " + thang;
+            document.getElementById("year").innerHTML += " " + nam;
+    
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var soluong;
+        var ds=new Array(100);
+        soluong=prompt("Số thiết bị cần nhập","");
+        for (i=0;i<soluong;i++){
+            ds[i]=prompt("Nhập vào thiết bị văn phòng: ","");
+        }
+        document.write("<h1>Danh sách thiết bị có tên Computer là: </h1>");
+        document.write("<table border='1'>");
+        document.write("<tr><th>Tên thiết bị</th></tr>");
+        for(i=0;i<soluong;i++){
+            if(ds[i].includes("computer")){
+                document.write("<tr><td>"+ds[i]+"</td></tr>");
+            }
+        }
+        document.write("</table>")
+    </script>
+</body>
+</html>

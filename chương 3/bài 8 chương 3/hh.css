@@ -7,6 +7,15 @@
     justify-content: space-between;
 
 }
+.con>*{
+    display: flex;
+    flex-direction: column;
+    
+}
+.chau{
+   padding-left: 120px;
+   width: 300px;
+}
 .con,.chau{
     display: none;
 }
@@ -19,3 +28,4 @@
 table{
     border-collapse: collapse;
 }
+

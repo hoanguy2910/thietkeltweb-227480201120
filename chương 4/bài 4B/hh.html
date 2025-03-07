@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write("<h2> Lấy ND trong textbox </h2><br>");
+        document.write("<br>");
+        function cthoten(){
+            alert(txthoten.value);
+        }
+        function ctdonvi(){
+            alert(txtdonvi.value);
+        }
+    </script>
+    <input type="button" value="Họ tên"
+    onclick="cthoten()">
+    <input type="text" id="txthoten" value="Chào" size="40"><br><br>
+    <input type="button" value="Đơn vị"
+    onclick="ctdonvi()">
+    <input type="text" id="txtdonvi" value="Đơn vị" size="40">
+</body>
+</html>
