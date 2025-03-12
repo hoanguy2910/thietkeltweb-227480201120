@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function tinh(){
+            var a=chon.value
+            switch(a){
+                case "cong":
+                    ketqua.value=parseFloat(sohang1.value)+ parseFloat(sohang2.value);
+                    break;
+                case "tru":
+                    ketqua.value=parseFloat(sohang1.value)- parseFloat(sohang2.value);
+                    break;
+                case "nhan":
+                    ketqua.value=parseFloat(sohang1.value)* parseFloat(sohang2.value);
+                    break;
+                case "chia":
+                    ketqua.value=parseFloat(sohang1.value)/ parseFloat(sohang2.value);
+                    break;
+            }
+        }
+    </script>
+    <h2>Hãy nhập hai số </h2>
+    Số hạng 1: <input type="text" id="sohang1"> <br><br>
+    Số hạng 2: <input type="text" id="sohang2"> <br><br>
+    Kết quả: <input type="text" id="ketqua" readonly><br><br>
+    <select id="chon" >
+        <option value="cong">Cộng</option>
+        <option value="tru">Trừ</option>
+        <option value="nhan">Nhân</option>
+        <option value="chia">Chia</option>
+    </select>
+    <input type="button" value="Tính" onclick="tinh()">
+</body>
+</html>
