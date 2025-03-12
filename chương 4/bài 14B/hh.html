@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function tinh(){
+            const ra=document.getElementsByName("bien");
+            var luu;
+            for (  radio of ra){
+                if(radio.checked){
+                   luu=radio.value;
+                   break;
+                }
+            }
+            switch(luu){
+                case "cong":
+                    ketqua.value=parseFloat(sohang1.value)+ parseFloat(sohang2.value);
+                    break;
+                case "tru":
+                    ketqua.value=parseFloat(sohang1.value)- parseFloat(sohang2.value);
+                    break;
+                case "nhan":
+                    ketqua.value=parseFloat(sohang1.value)* parseFloat(sohang2.value);
+                    break;
+                case "chia":
+                    ketqua.value=parseFloat(sohang1.value)/ parseFloat(sohang2.value);
+                    break;
+            }
+        }
+    </script>
+    <h2>Hãy nhập hai số và click vào nút tính tổng</h2>
+    Số hạng 1: <input type="text" id="sohang1"> <br><br>
+    Số hạng 2: <input type="text" id="sohang2"> <br><br>
+    Kết quả: <input type="text" id="ketqua" readonly><br><br>
+    <input type="radio" name="bien" value="cong"> Cộng
+    <input type="radio" name="bien" value="tru"> Trừ
+    <input type="radio" name="bien" value="nhan"> Nhân
+    <input type="radio" name="bien" value="chia"> Chia <br><br>
+    <input type="button" value="Tính" 
+    onclick="tinh()">
+
+</body>
+</html>

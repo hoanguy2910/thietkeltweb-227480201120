@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function kiemtra(){
+            if(noidung.value.length>200) alert("Bạn đã gõ quá số ký tự cho phép");
+            sokytu.value=noidung.value.length;
+        }
+    </script>
+    Số ký tự đã gõ:
+    <input type="text" id="sokytu"><br><br>
+    <textarea id="noidung" cols="50" rows="10" onkeyup="kiemtra();">
+    </textarea>
+</body>
+</html>

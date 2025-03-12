@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function doimau(){
+            var mau=document.querySelector('[name="mau"]');
+            document.bgColor=mau.value;
+        }
+    </script>
+    Bạn hãy chọn màu nền:
+    <select name="mau" onchange="doimau();">
+        <option value="red">Màu đỏ</option>
+        <option value="blue">Màu xanh</option>
+        <option value="brown">Màu nâu</option>
+        <option value="lavender">Màu xanh nhạt</option>
+    </select>
+</body>
+</html>
