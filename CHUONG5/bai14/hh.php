@@ -23,7 +23,7 @@
             $text=$_POST['text'];
             $chon=$_POST['so'];
 
-            $so=array_map('intval',explode(' ',$text));
+            $so=array_map('floatval',explode(' ',$text));
             if (count($so) != $row * $coll) {
                 echo "Số phần tử không phù hợp với kích thước ma trận ($row x $coll). Vui lòng nhập lại!";
                 exit;

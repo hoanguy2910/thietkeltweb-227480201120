@@ -1,0 +1,68 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+form{
+    border: 1px solid black;
+    max-width: 250px;
+}
+#email,#them{
+    width: 100px;
+}
+
+#hien{
+    width: 160px;
+}
+#dangnhap,#dangky{
+    width: 200px;
+}
+.chu{
+    background-color: gray;
+    padding: 2px;
+    color: white;
+    width: 244px;
+    margin-top: 2px;
+}
+.dong1,.dong2,.dong3,.dong4{
+    padding: 0 20px;
+}
+#maso{
+    width: 200px;
+}
+#button{
+    width: 40px;
+}
+#emailicon{
+    width: 18px;
+    height:15px;
+    position: absolute;
+    left: 100px;
+    top: 3px;
+
+}
+.dong1{
+    position: relative;
+}
+#khoaicon{
+    width: 15px;
+    height:15px;
+    position: absolute;
+    left: 163px;
+    top: 3px;
+
+}
+.dong2{
+    position: relative;
+}
+#mavach{
+    width: 30px;
+    height:30px;
+    position: absolute;
+    left: 190px;
+    top: -5px;
+
+}
+.dong3{
+    position: relative;
+}
