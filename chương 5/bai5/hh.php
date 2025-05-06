@@ -39,7 +39,7 @@
         Số thứ 1: <input type="number" name="so1" required><br><br>
         Số thứ 2: <input type="number" name="so2" required><br><br>
         Kết quả: <input type="text" name="ketqua" readonly 
-        value="<?php echo isset($result) ? htmlspecialchars($result) : 'a'; ?>"><br><br>
+        value="<?php echo isset($result) ? htmlspecialchars($result) : ''; ?>"><br><br>
         <button type="submit" name="action" value="uscln">USCLN</button>
         <button type="submit" name="action" value="bscnn">BSCNN</button>
     </form>
